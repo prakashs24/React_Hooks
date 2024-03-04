@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Useeffect from './Hooks/UseEffect';
+import UseContext from './Hooks/UseContext';
+import UseRef from './Hooks/UseRef';
+import UseReducer from './Hooks/UseReducer';
+import UseLayoutEffect from './Hooks/UseLayoutEffect';
+import UseMemo from './Hooks/UseMemo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <UseMemo />
   </React.StrictMode>
 );
 

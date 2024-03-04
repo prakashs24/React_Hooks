@@ -16,7 +16,7 @@ function App() {
      <div>
     <input type='text' onChange={(e)=>e.target.value} />
     <h1>  
-      {details.name} has clicked {details.counter} times!!
+        {details.name} has clicked {details.counter} times!!
     </h1>  
     <button onClick={increaseCounter}>Increase</button>
     </div> 
