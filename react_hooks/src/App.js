@@ -13,13 +13,13 @@ function App() {
    }
    console.log(details);
    return(
-    <div>
+     <div>
     <input type='text' onChange={(e)=>e.target.value} />
     <h1>  
       {details.name} has clicked {details.counter} times!!
     </h1>  
     <button onClick={increaseCounter}>Increase</button>
-    </div>
+    </div> 
    )
 }
-export default App;
+export default App; 
